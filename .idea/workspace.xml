@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b389135d-b729-4d8f-8573-7c8adaca3092" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/AngularJS_demo.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/angular-animate.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/angular-animate.min.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/angular-aria.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/angular-aria.min.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/angular-cookies.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/angular-cookies.min.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/angular-csp.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/angular-loader.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/angular-loader.min.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/angular-message-format.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/angular-message-format.min.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/angular-messages.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/angular-messages.min.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/angular-mocks.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/angular-parse-ext.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/angular-parse-ext.min.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/angular-resource.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/angular-resource.min.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/angular-route.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/angular-route.min.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/angular-sanitize.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/angular-sanitize.min.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/angular-touch.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/angular-touch.min.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/angular.min.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/errors.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_af-na.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_af-za.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_af.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_agq-cm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_agq.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ak-gh.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ak.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_am-et.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_am.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ar-001.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ar-ae.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ar-bh.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ar-dj.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ar-dz.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ar-eg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ar-eh.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ar-er.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ar-il.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ar-iq.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ar-jo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ar-km.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ar-kw.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ar-lb.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ar-ly.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ar-ma.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ar-mr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ar-om.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ar-ps.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ar-qa.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ar-sa.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ar-sd.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ar-so.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ar-ss.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ar-sy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ar-td.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ar-tn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ar-xb.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ar-ye.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_as-in.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_as.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_asa-tz.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_asa.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ast-es.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ast.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_az-cyrl-az.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_az-cyrl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_az-latn-az.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_az-latn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_az.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_bas-cm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_bas.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_be-by.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_be.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_bem-zm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_bem.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_bez-tz.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_bez.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_bg-bg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_bg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_bm-ml.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_bm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_bn-bd.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_bn-in.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_bn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_bo-cn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_bo-in.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_bo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_br-fr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_br.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_brx-in.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_brx.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_bs-cyrl-ba.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_bs-cyrl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_bs-latn-ba.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_bs-latn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_bs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ca-ad.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ca-es-valencia.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ca-es.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ca-fr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ca-it.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ca.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ce-ru.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ce.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_cgg-ug.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_cgg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_chr-us.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_chr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ckb-arab-iq.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ckb-arab-ir.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ckb-arab.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ckb-iq.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ckb-ir.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ckb-latn-iq.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ckb-latn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ckb.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_cs-cz.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_cs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_cu-ru.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_cu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_cy-gb.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_cy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_da-dk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_da-gl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_da.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_dav-ke.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_dav.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_de-at.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_de-be.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_de-ch.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_de-de.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_de-it.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_de-li.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_de-lu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_de.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_dje-ne.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_dje.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_dsb-de.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_dsb.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_dua-cm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_dua.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_dyo-sn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_dyo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_dz-bt.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_dz.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ebu-ke.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ebu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ee-gh.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ee-tg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ee.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_el-cy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_el-gr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_el.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-001.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-150.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-ag.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-ai.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-as.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-at.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-au.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-bb.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-be.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-bi.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-bm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-bs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-bw.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-bz.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-ca.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-cc.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-ch.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-ck.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-cm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-cx.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-cy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-de.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-dg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-dk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-dm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-er.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-fi.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-fj.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-fk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-fm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-gb.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-gd.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-gg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-gh.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-gi.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-gm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-gu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-gy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-hk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-ie.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-il.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-im.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-in.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-io.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-iso.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-je.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-jm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-ke.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-ki.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-kn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-ky.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-lc.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-lr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-ls.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-mg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-mh.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-mo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-mp.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-ms.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-mt.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-mu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-mw.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-my.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-na.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-nf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-ng.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-nl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-nr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-nu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-nz.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-pg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-ph.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-pk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-pn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-pr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-pw.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-rw.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-sb.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-sc.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-sd.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-se.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-sg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-sh.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-si.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-sl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-ss.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-sx.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-sz.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-tc.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-tk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-to.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-tt.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-tv.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-tz.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-ug.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-um.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-us-posix.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-us.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-vc.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-vg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-vi.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-vu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-ws.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-xa.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-za.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-zm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en-zw.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_en.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_eo-001.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_eo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_es-419.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_es-ar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_es-bo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_es-br.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_es-bz.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_es-cl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_es-co.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_es-cr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_es-cu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_es-do.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_es-ea.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_es-ec.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_es-es.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_es-gq.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_es-gt.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_es-hn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_es-ic.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_es-mx.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_es-ni.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_es-pa.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_es-pe.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_es-ph.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_es-pr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_es-py.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_es-sv.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_es-us.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_es-uy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_es-ve.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_es.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_et-ee.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_et.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_eu-es.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_eu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ewo-cm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ewo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fa-af.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fa-ir.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fa.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ff-cm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ff-gn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ff-mr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ff-sn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ff.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fi-fi.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fi.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fil-ph.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fil.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fo-dk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fo-fo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-be.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-bf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-bi.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-bj.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-bl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-ca.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-cd.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-cf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-cg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-ch.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-ci.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-cm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-dj.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-dz.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-fr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-ga.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-gf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-gn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-gp.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-gq.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-ht.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-km.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-lu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-ma.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-mc.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-mf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-mg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-ml.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-mq.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-mr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-mu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-nc.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-ne.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-pf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-pm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-re.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-rw.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-sc.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-sn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-sy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-td.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-tg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-tn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-vu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-wf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr-yt.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fur-it.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fur.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fy-nl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_fy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ga-ie.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ga.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_gd-gb.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_gd.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_gl-es.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_gl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_gsw-ch.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_gsw-fr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_gsw-li.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_gsw.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_gu-in.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_gu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_guz-ke.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_guz.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_gv-im.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_gv.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ha-gh.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ha-ne.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ha-ng.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ha.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_haw-us.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_haw.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_he-il.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_he.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_hi-in.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_hi.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_hr-ba.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_hr-hr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_hr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_hsb-de.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_hsb.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_hu-hu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_hu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_hy-am.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_hy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_id-id.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_id.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ig-ng.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ig.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ii-cn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ii.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_in.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_is-is.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_is.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_it-ch.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_it-it.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_it-sm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_it-va.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_it.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_iw.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ja-jp.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ja.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_jgo-cm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_jgo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_jmc-tz.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_jmc.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ka-ge.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ka.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_kab-dz.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_kab.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_kam-ke.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_kam.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_kde-tz.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_kde.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_kea-cv.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_kea.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_khq-ml.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_khq.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ki-ke.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ki.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_kk-kz.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_kk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_kkj-cm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_kkj.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_kl-gl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_kl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_kln-ke.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_kln.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_km-kh.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_km.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_kn-in.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_kn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ko-kp.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ko-kr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ko.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_kok-in.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_kok.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ks-in.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ks.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ksb-tz.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ksb.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ksf-cm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ksf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ksh-de.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ksh.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_kw-gb.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_kw.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ky-kg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ky.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_lag-tz.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_lag.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_lb-lu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_lb.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_lg-ug.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_lg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_lkt-us.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_lkt.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ln-ao.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ln-cd.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ln-cf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ln-cg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ln.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_lo-la.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_lo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_lrc-iq.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_lrc-ir.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_lrc.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_lt-lt.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_lt.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_lu-cd.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_lu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_luo-ke.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_luo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_luy-ke.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_luy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_lv-lv.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_lv.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_mas-ke.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_mas-tz.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_mas.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_mer-ke.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_mer.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_mfe-mu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_mfe.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_mg-mg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_mg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_mgh-mz.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_mgh.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_mgo-cm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_mgo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_mk-mk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_mk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ml-in.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ml.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_mn-mn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_mn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_mo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_mr-in.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_mr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ms-bn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ms-my.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ms-sg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ms.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_mt-mt.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_mt.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_mua-cm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_mua.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_my-mm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_my.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_mzn-ir.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_mzn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_naq-na.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_naq.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_nb-no.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_nb-sj.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_nb.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_nd-zw.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_nd.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_nds-de.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_nds-nl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_nds.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ne-in.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ne-np.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ne.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_nl-aw.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_nl-be.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_nl-bq.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_nl-cw.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_nl-nl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_nl-sr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_nl-sx.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_nl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_nmg-cm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_nmg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_nn-no.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_nn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_nnh-cm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_nnh.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_no-no.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_no.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_nus-ss.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_nus.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_nyn-ug.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_nyn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_om-et.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_om-ke.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_om.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_or-in.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_or.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_os-ge.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_os-ru.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_os.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_pa-arab-pk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_pa-arab.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_pa-guru-in.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_pa-guru.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_pa.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_pl-pl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_pl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_prg-001.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_prg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ps-af.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ps.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_pt-ao.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_pt-br.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_pt-ch.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_pt-cv.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_pt-gq.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_pt-gw.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_pt-lu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_pt-mo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_pt-mz.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_pt-pt.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_pt-st.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_pt-tl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_pt.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_qu-bo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_qu-ec.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_qu-pe.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_qu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_rm-ch.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_rm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_rn-bi.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_rn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ro-md.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ro-ro.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ro.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_rof-tz.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_rof.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ru-by.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ru-kg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ru-kz.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ru-md.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ru-ru.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ru-ua.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ru.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_rw-rw.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_rw.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_rwk-tz.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_rwk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sah-ru.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sah.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_saq-ke.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_saq.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sbp-tz.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sbp.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_se-fi.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_se-no.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_se-se.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_se.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_seh-mz.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_seh.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ses-ml.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ses.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sg-cf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sh.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_shi-latn-ma.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_shi-latn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_shi-tfng-ma.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_shi-tfng.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_shi.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_si-lk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_si.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sk-sk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sl-si.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_smn-fi.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_smn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sn-zw.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_so-dj.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_so-et.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_so-ke.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_so-so.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_so.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sq-al.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sq-mk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sq-xk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sq.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sr-cyrl-ba.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sr-cyrl-me.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sr-cyrl-rs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sr-cyrl-xk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sr-cyrl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sr-latn-ba.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sr-latn-me.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sr-latn-rs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sr-latn-xk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sr-latn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sv-ax.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sv-fi.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sv-se.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sv.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sw-cd.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sw-ke.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sw-tz.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sw-ug.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_sw.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ta-in.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ta-lk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ta-my.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ta-sg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ta.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_te-in.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_te.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_teo-ke.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_teo-ug.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_teo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_th-th.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_th.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ti-er.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ti-et.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ti.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_tk-tm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_tk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_tl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_to-to.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_to.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_tr-cy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_tr-tr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_tr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_twq-ne.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_twq.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_tzm-ma.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_tzm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ug-cn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ug.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_uk-ua.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_uk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ur-in.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ur-pk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_ur.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_uz-arab-af.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_uz-arab.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_uz-cyrl-uz.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_uz-cyrl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_uz-latn-uz.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_uz-latn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_uz.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_vai-latn-lr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_vai-latn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_vai-vaii-lr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_vai-vaii.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_vai.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_vi-vn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_vi.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_vo-001.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_vo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_vun-tz.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_vun.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_wae-ch.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_wae.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_xog-ug.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_xog.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_yav-cm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_yav.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_yi-001.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_yi.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_yo-bj.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_yo-ng.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_yo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_yue-hk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_yue.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_zgh-ma.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_zgh.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_zh-cn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_zh-hans-cn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_zh-hans-hk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_zh-hans-mo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_zh-hans-sg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_zh-hans.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_zh-hant-hk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_zh-hant-mo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_zh-hant-tw.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_zh-hant.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_zh-hk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_zh-tw.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_zh.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_zu-za.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/i18n/angular-locale_zu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/version.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular-1.6.9/version.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+              <folding>
+                <element signature="e#1244#1250#0" expanded="true" />
+                <element signature="e#1250#1256#0" expanded="true" />
+                <element signature="e#1374#1380#0" expanded="true" />
+                <element signature="e#1380#1386#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="62" />
+    <option name="y" value="61" />
+    <option name="width" value="1768" />
+    <option name="height" value="914" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AngularJS_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngularJS_demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AngularJS_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngularJS_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="angular-1.6.9" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../webProject" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\nanyixuan\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b389135d-b729-4d8f-8573-7c8adaca3092" name="Default" comment="" />
+      <created>1523418183007</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523418183007</updated>
+      <workItem from="1523418184452" duration="13137000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13137000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="62" y="61" width="1768" height="914" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24971098" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="AngularJS Demo 学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="AngularJS Demo 学习" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/angular-1.6.9/docs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2375">
+          <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-1.6.9/docs/partials/api/auto/service/$injector.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-1.6.9/docs/img/angular_parts.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-1.6.9/docs/partials/api/auto/service.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding>
+            <element signature="e#1244#1250#0" expanded="true" />
+            <element signature="e#1250#1256#0" expanded="true" />
+            <element signature="e#1374#1380#0" expanded="true" />
+            <element signature="e#1380#1386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

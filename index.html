@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="angular-1.6.9/angular.min.js"></script>
+    <script src="angular-1.6.9/angular-animate.min.js"></script>
+    <style>
+        input.ng-invalid {
+            background-color: lightblue;
+        }
+        .agreeDiv{
+            transition: all linear 0.5s;
+            background-color: lightblue;
+            height: 100px;
+            width: 100%;
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+        .ng-hide {
+            height: 0;
+            width: 0;
+            background-color: transparent;
+            left: -200px;
+        }
+    </style>
+</head>
+<body>
+<form ng-app="myApp" name="myForm" ng-controller="myCtrl" >
+    <h1>{{theTime}}</h1>
+    名: <input type="text" ng-model="firstName" name="firstName" required><br>
+    姓: <input type="text" ng-model="lastName" name="lastName" required><br>
+    性别:
+    <input type="radio" ng-model="radioSex" value="sex1">男
+    <input type="radio" ng-model="radioSex" value="sex2">女<br>
+    地区:<select ng-init="selectedAddress = address[0]" ng-model="selectedAddress" ng-options="x for x in address">
+</select><br>
+    邮箱: <input type="email" ng-model="email" name="myAddress" required>&nbsp;&nbsp;
+    <span ng-show="myForm.myAddress.$error.email">不是一个合法的邮箱地址</span><br>
+    <input type="checkbox" ng-model="agree">&nbsp;&nbsp;你说啥都对！<br>
+    <div class="agreeDiv" ng-hide="agree">
+        <p>你是猪吗？</p>
+        <p>你是猪吗？</p>
+        <p>你是猪吗？</p>
+    </div>
+    <button type="submit" ng-disabled="myForm.firstName.$pristine || myForm.firstName.lastName ||myForm.myAddress.$pristine || myForm.myAddress.$invalid" ng-click="reset()">提交</button>
+    <br><br>
+    <div ng-show="resetSuccess">
+        姓名: {{firstName + " " + lastName}}<br>
+        性别: {{radioSex}}
+        <span ng-switch="radioSex">
+    <span ng-switch-when="sex1">男</span>
+    <span ng-switch-when="sex2">女</span>
+  </span>
+        <br>
+        地区: {{selectedAddress}}<br>
+        邮箱: {{email}}
+        <ul ng-init="listText">
+            <li ng-repeat="x in listText">
+                {{ x }}
+            </li>
+        </ul>
+    </div>
+</form>
+<runoob-directive></runoob-directive>
+<script>
+    var app = angular.module('myApp', ['ngAnimate']);
+    app.controller('myCtrl', function ($scope, $interval, $http) {
+        $scope.listText = ["1111111111", "2222222222", "333333333333333"];
+        $scope.firstName = "";
+        $scope.lastName = "";
+        $scope.radioSex = "sex1";
+        $scope.address = ["西安", "北京", "上海", "深圳"];
+        $scope.agree = true;
+        $interval(function () {
+            $scope.theTime = new Date().toLocaleTimeString();
+        }, 1000);
+        // 简单的 GET 请求，可以改为 POST
+        /*$http({
+            method: 'GET',
+            url: '/someUrl'
+        }).then(function successCallback(response) {
+            // 请求成功执行代码
+        }, function errorCallback(response) {
+            // 请求失败执行代码
+        });*/
+        $scope.reset = function () {
+            $scope.resetSuccess = true;
+        }
+    });
+    app.directive("runoobDirective", function () {
+        return {
+            template: "<h1>自定义指令!</h1>"
+        };
+    });
+</script>
+</body>
+</html>
